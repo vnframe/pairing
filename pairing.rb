@@ -1,5 +1,5 @@
 def pairs(names)
-  pair = [[],[]]
-  names.each_slice(2)
-  pair[0] && pair[1] << names
+  pair = names.each_slice(2).to_a.
+
+  p pair
 end
